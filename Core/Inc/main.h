@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LED_BLINKING_Pin GPIO_PIN_0
+#define LED_BLINKING_GPIO_Port GPIOA
+#define START_STOP_BTN_Pin GPIO_PIN_1
+#define START_STOP_BTN_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
